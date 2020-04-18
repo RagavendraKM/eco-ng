@@ -1,0 +1,27 @@
+<div class="login">
+  <div class="main-agileits">
+    <div class="form-w3agile form1">
+      <h3>Register</h3>
+      <form [formGroup]="loginForm">
+        <div class="form-group w-100">
+          <input formControlName="name" type="text" placeholder="User Name" class="form-control">
+        </div>
+        <div class="form-group w-100">
+          <input formControlName="email" type="email" placeholder="Email" class="form-control">
+        </div>
+        <div class="form-group w-100">
+          <input formControlName="password"  type="password" placeholder="Password" class="form-control">
+        </div>
+        <div class="form-group w-100">
+            <input formControlName="phone" type="text" placeholder="Phone Number" class="form-control">
+          </div>
+        <div class="form-group w-100">
+          <input formControlName="type" type="text" placeholder="Supplier / Customer" class="form-control">
+        </div>
+      
+        <input  (click) = "login()" type="submit" value="Submit">
+      </form>
+    </div>
+
+  </div>
+</div>

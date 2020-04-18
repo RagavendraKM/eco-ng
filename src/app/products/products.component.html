@@ -1,0 +1,8 @@
+<div style="max-width: 400px;display: flex; flex-direction: column; margin:auto; text-align: center;">
+  <button class="btn-primary" [routerLink]="['/supplier']" routerLinkActive="router-link-active">Supplier</button>
+  <div *ngIf="alldata.length > 0">
+    <p *ngFor="let item of alldata">
+      {{item.name}} {{item.quantity}}
+    </p>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+.inputAlign {
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.w-100 {
+    width :100%;
+}
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 350px;
+    margin: auto;
+    align-items: center;
+    margin-top:50px;
+}
